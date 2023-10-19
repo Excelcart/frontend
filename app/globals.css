@@ -1,27 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;600;700;800;900&family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Noto Sans', Poppins;
+}
+
+.hero-bg {
+  background: linear-gradient(141deg, rgba(0, 171, 155, 0.37) -102.41%, rgba(0, 171, 155, 0.00) 64.58%);
+}
+
+.overlay {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #0c0b0b75;
+  opacity: 1;
+  width: 100%;
+}
+
+.bg-image1 {
+  background-image: url('/Rectangle7.png');
+  background-size: cover;
+}
+
+.bg-image2 {
+  background-image: url('/Rectangle8.png');
+  background-size: cover;
+}
+
+.box_shadow {
+  box-shadow: 5px 12px 4px 0px rgba(10, 10, 10, 0.15);;
+}
+.sec_bg {
+  width: 100%;
+  background-image: linear-gradient(248deg, #00AB9B 25.85%, #00AB9B 59.84%, #009486 93.63%);
+}
+
+.testimonial-img {
+  position: absolute;
+  border-color: #fff;
+  border-radius: 50%;
+  border-width: 0.5rem;
+  top: -25%;
+  box-shadow: 3px 14px 14px rgba(0, 0, 0, 0.15);
 }
