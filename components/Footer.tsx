@@ -4,14 +4,14 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className='bg-black'>
-      <div className='m-auto w-full text-white'>
+      <div className='m-auto w-full text-white max-w-[95rem] m-auto'>
         <div className='flex justify-between gap-10 md:p-20 p-10'>
-          <ul className='flex lg:flex-row flex-col lg:gap-10 gap-5 lg:text-2xl text-lg'>
+          <ul className='flex lg:flex-row flex-col lg:gap-10 gap-5 lg:text-xl text-lg'>
             <li>Products</li>
             <li>About</li>
             <li>Support</li>
           </ul>
-          <ul className='flex lg:flex-row flex-col lg:gap-10 gap-5 lg:text-2xl text-lg'>
+          <ul className='flex lg:flex-row flex-col lg:gap-10 gap-5 lg:text-xl text-lg'>
             <li>Contact Us</li>
             <li>Privacy & Policy</li>
             <li>Terms & Conditions</li>

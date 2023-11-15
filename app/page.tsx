@@ -5,11 +5,11 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Testimonials from '@/components/Testimonials'
 import UserRoles from '@/components/UserRoles'
-import Image from 'next/image'
+
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white relative">
+    <main className="min-h-screen w-full bg-white relative">
       <Header />
       <Hero />
       <Features/>

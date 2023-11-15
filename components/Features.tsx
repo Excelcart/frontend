@@ -5,11 +5,11 @@ import FeatureCard from './FeatureCard'
 const Features = () => {
   return (
     <section className='bg-image1 relative'>
-      <div className='bg-image2 my-8'>
-        <div className='flex flex-col items-center pt-16 xl:w-[90rem] m-auto w-[92%] relative'>
-          <h2 className='text-[#00AB9B] font-bold text-2xl lg:text-[2.8125rem] mt-12 mb-20'>Why Excelcart?</h2>
-          <div className='flex justify-center items-center gap-10 flex-wrap md:flex-nowrap md:w-full md:px-4'>
-          <FeatureCard
+      <div className='bg-image2'>
+        <div className='flex flex-col items-center pt-16 max-w-[95rem] m-auto relative'>
+          <h2 className='text-[#00AB9B] font-bold text-2xl lg:text-3xl mt-6 mb-12'>Why Excelcart?</h2>
+          <div className='flex justify-center items-center gap-10 flex-wrap md:flex-nowrap md:w-full px-6'>
+            <FeatureCard
               title='Find The Best Deals'
               image_url='/feature1.jpg'
               desc='Excelcart Brings Together Sellers To Offer You Unbeatable Deals On Campus Essentials.'
@@ -22,7 +22,7 @@ const Features = () => {
             <FeatureCard
               title='Connect With Community'
               image_url='/feature3.jpg'
-              desc="Excelcart Is Not Just A Marketplace; It&sbquo;s Your Hub For Staying Updated On Campus Life."
+              desc="Excelcart Is Not Just A Marketplace; It&apos;s Your Hub For Staying Updated On Campus Life."
             />
           </div>
         </div>
