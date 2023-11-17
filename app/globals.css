@@ -52,3 +52,13 @@ body {
   top: -25%;
   box-shadow: 3px 14px 14px rgba(0, 0, 0, 0.15);
 }
+
+.mobile-register-bg {
+  background-image: url('/mobile-register-bg.svg');
+  background-size: cover;
+}
+
+.mobile-register-bg2 {
+  background-image: url('/mobile-register-bg2.svg');
+  background-size: cover;
+}

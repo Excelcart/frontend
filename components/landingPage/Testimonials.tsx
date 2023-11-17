@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Testimonial from '@/components/Testimonial'
+import Testimonial from './Testimonial'
 
 const Testimonials = () => {
   return (

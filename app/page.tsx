@@ -1,22 +1,20 @@
-import Features from '@/components/Features'
-import Footer from '@/components/Footer'
-import GetStarted from '@/components/GetStarted'
-import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import Testimonials from '@/components/Testimonials'
-import UserRoles from '@/components/UserRoles'
+import Features from "@/components/landingPage/Features";
+import GetStarted from "@/components/landingPage/GetStarted";
+import Hero from "@/components/landingPage/Hero";
+import Testimonials from "@/components/landingPage/Testimonials";
+import UserRoles from "@/components/landingPage/UserRoles";
+import Layout from "@/components/Layout";
+
 
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full bg-white relative">
-      <Header />
+    <Layout>
       <Hero />
       <Features/>
       <UserRoles/>
       <GetStarted />
       <Testimonials/>
-      <Footer/>
-    </main>
+    </Layout>
   )
 }

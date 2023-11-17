@@ -1,8 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React, { useState } from 'react'
-import Button from './innerComponent/button'
-import Overlay from './innerComponent/Overlay'
+import Button from '../innerComponent/button'
 
 const Hero = () => {
   return (
@@ -21,12 +20,16 @@ const Hero = () => {
               Excelcart is a unique online platform designed exclusively for college students. Whether you are looking to buy, sell, or earn income on campus, Excelcart is here to make your college life easier and more connected.
             </p>
             <div className='pt-10 pl-3'>
-              <Button class={'rounded-xl hidden lg:block'} title={"Get Started"}/>
+              <a href="/register">
+                <Button class={'rounded-xl hidden lg:block'} title={"Get Started"}/>
+              </a>
               {/* <button className='bg-[#6ec0b8] text-white rounded-xl font-semibold hover:bg-[#00AB9B] px-5 pb-3 pt-2 text-[1.5rem] hidden lg:block'>Get Started</button> */}
             </div>
           </div>
           <Image src='/excelcartHero.png' width={500} height={500} alt='Buy Sell And Make Money' className='lg:w-1/2 lg:h-[32rem] xl:h-[40rem] p-3 lg:pt-12 w-full'/>
-          <Button class={'rounded-xl lg:hidden'} title={"Get Started"}/>
+          <a href="/register">
+            <Button class={'rounded-xl lg:hidden'} title={"Get Started"}/>
+          </a>
           {/* <button className='bg-[#6ec0b8] text-white rounded-xl font-semibold hover:bg-[#00AB9B] px-3 pb-2 pt-2 text-[1.2rem] block lg:hidden m-10'>Get Started</button> */}
         </div>
       </section>

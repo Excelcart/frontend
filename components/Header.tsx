@@ -39,7 +39,9 @@ const Header = () => {
             </ul>
           </div>
           <Image src={hamburger} className={`block md:hidden ${Open ? 'w-4':'w-6'}`} width={20} height={20} alt='hamburger' onClick={toggleMenu} />
-          <Button class={'rounded-full hidden md:block'} title={"Get Started"}/>
+          <a href="/register">
+            <Button class={'rounded-full hidden md:block'} title={"Get Started"}/>
+          </a>
         </nav>
       </header>
     </>
